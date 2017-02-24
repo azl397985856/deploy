@@ -12,10 +12,24 @@ npm i deploy-cli -g
 deploy  deploy_env [-C || --config] config_file
 
 ```
-deploy_env should be put into config_file first.
+config_file example:
 
-config file
- - __host:__        FTP host,     default is localhost
+```javascript
+  {
+    test: {
+      host: 'http://127.0.0.1',
+      ...
+    },
+    pro: {
+
+    },
+    ...
+  }
+```
+deploy_env should be put into config_file first. for example, you can type deploy test or deploy pro now.
+
+deploy_env example:
+- __host:__        FTP host,     default is localhost
 - __user:__        FTP user,     default is anonymous
 - __pass[word]:__  FTP password, default is anonymous@
 - __port:__        FTP port,     default is 21
