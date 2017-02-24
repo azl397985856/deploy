@@ -1,0 +1,29 @@
+{
+  "name": "deploy-fast",
+  "version": "0.1.0",
+  "description": "deploy your project easily",
+  "main": "index.js",
+  "bin": {
+    "deploy": "./bin/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azl397985856/deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "ftp"
+  ],
+  "author": "zhipenglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azl397985856/deploy/issues"
+  },
+  "homepage": "https://github.com/azl397985856/deploy#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
