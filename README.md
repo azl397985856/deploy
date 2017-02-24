@@ -3,7 +3,7 @@ deploy your project easily.
 ## Install
 
 ```bash
-npm i deploy-cli -g
+npm i deploy-fast -g
 ```
 
 ## Usage example
