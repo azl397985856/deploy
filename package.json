@@ -1,6 +1,6 @@
 {
   "name": "deploy-fast",
-  "version": "0.1.1",
+  "version": "0.1.8",
   "description": "deploy your project easily",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,8 @@
   "homepage": "https://github.com/azl397985856/deploy#readme",
   "dependencies": {
     "commander": "^2.9.0",
+    "map-stream": "0.0.6",
+    "vinyl-fs": "^2.4.4",
     "vinyl-ftp": "^0.6.0"
   }
 }
