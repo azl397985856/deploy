@@ -8,7 +8,7 @@ var ftp = require( 'vinyl-ftp' );
 
 program
   .version(require('../package.json').version)
-  .usage('[options] [project name]')
+  .usage('[project name] [options] ')
   .option('-C, --config <str>', 'specify your config file')
   .parse(process.argv);
 
