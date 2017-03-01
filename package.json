@@ -1,6 +1,6 @@
 {
   "name": "deploy-fast",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "deploy your project easily",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,6 @@
   "homepage": "https://github.com/azl397985856/deploy#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "sftp-uploads": "0.0.2"
+    "sftp-uploads": "0.0.3"
   }
 }

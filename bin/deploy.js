@@ -12,10 +12,6 @@ program
 
 var deploy_env = program.args[0];
 var config = program.config ? program.config : 'deploy.json';
-var log = function(file, cb) {
-  console.log(file.path);
-  cb(null, file);
-};
 fs.readFile(config, function(err,data) {
     if (!err) {
          // logic here
@@ -40,7 +36,3 @@ fs.readFile(config, function(err,data) {
         console.error('config file', config, 'is not found');
     }
 });
-// print uncaughtException for debug
-process.on('uncaughtException', function (err) {
-    console.log(err);
-}); 
