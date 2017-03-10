@@ -30,10 +30,12 @@ deploy_env should be put into config_file first. for example, you can type deplo
 
 deploy_env example:
 - __host:__        FTP host,     default is localhost
-- __user:__        FTP user,     default is anonymous
-- __pass[word]:__  FTP password, default is anonymous@
+- __username:__        FTP user,     default is anonymous
+- __password:__  FTP password, default is anonymous@
 - __port:__        FTP port,     default is 21
-- __dest:__        destination
+- __remoteDir:__        destination
+- __path:__        local path(regex supported)
+- __base:__        local base location
 - __log:__         Log function, default is null
 - __timeOffset:__  Offset server time by this number of minutes, default is 0
 - __parallel:__    Number of parallel transfers, default is 3
